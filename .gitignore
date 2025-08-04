@@ -24,9 +24,39 @@ profile.cov
 go.work
 go.work.sum
 
-# env file
+# Env file
 .env
 
-# Editor/IDE
-# .idea/
-# .vscode/
+# Logs
+*.log
+
+# Swap and temporary files
+*.swp
+*.tmp
+*.bak
+*~
+
+# Output/build directories (optional, comment out if needed)
+bin/
+build/
+dist/
+
+# IDE/editor configs (uncomment if you don't want to track these)
+# JetBrains GoLand
+.idea/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Node/npm (if you use any JS tooling in your project)
+node_modules/
+
+# Dependency management (optional)
+Godeps/
+
+# Test result files
+*.testresult
+junit.xml
